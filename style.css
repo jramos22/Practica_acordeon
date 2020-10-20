@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    padding-top: 180px;
+    width: 500px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.cont{
+    background-color: #686868;
+    color: white;
+    display: none;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.cont p{
+    padding:20px 10px 20px 10px;
+}
+.acord{
+    background-color: #252425;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 20px;
+    float: left;
+}
+.acord:hover{
+    background-color:#ffffff;
+    color: rgb(51, 50, 50);
+    border: 1px solid black;
+}
